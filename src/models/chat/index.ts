@@ -6,6 +6,7 @@ interface IChat {
   users: Schema.Types.ObjectId[];
   latestMessage: Schema.Types.ObjectId;
   groupAdmin?: string;
+  dp?: string;
   createdAt: Date;
   updatedAt: Date;
 }
@@ -20,6 +21,10 @@ const chatSchema: Schema<IChat> = new Schema<IChat>(
       ref: "Message",
     },
     groupAdmin: { type: Schema.Types.ObjectId, ref: "User" },
+    dp: {
+      type: String,
+      required: false,
+    },
   },
   { timestamps: true }
 );

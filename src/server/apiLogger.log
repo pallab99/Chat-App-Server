@@ -504,3 +504,63 @@ ENOENT: no such file or directory, open '/Users/pallab99/Documents/personal proj
 
 /api/auth/sign-in  ( Time -> December 3, 2023 8:18 PM)
 
+/api/auth/sign-up  ( Time -> December 7, 2023 12:49 PM)
+
+/api/auth/sign-in  ( Time -> December 7, 2023 12:50 PM)
+
+/api/auth/sign-in  ( Time -> December 7, 2023 12:54 PM)
+
+/api/auth/sign-in  ( Time -> December 7, 2023 12:54 PM)
+
+/api/auth/sign-in  ( Time -> December 7, 2023 12:55 PM)
+
+/api/chat//single-chat/new  ( Time -> December 7, 2023 12:55 PM)
+
+/api/chat//single-chat/new  ( Time -> December 7, 2023 12:57 PM)
+
+/api/chat//single-chat/new  ( Time -> December 7, 2023 12:58 PM)
+
+/api/chat//single-chat/new  ( Time -> December 7, 2023 12:58 PM)
+
+/api/chat//single-chat/new  ( Time -> December 7, 2023 12:58 PM)
+
+/api/chat/chats/all  ( Time -> December 7, 2023 1:03 PM)
+
+/api/chat/chats/all  ( Time -> December 7, 2023 1:06 PM)
+
+/api/chat//single-chat/new  ( Time -> December 7, 2023 1:09 PM)
+
+/api/chat/chats/all  ( Time -> December 7, 2023 1:09 PM)
+
+/api/chat/chats/all  ( Time -> December 7, 2023 1:10 PM)
+
+/api/chat//group-chat/new  ( Time -> December 7, 2023 1:32 PM)
+
+/api/chat/group-chat/rename/65717526c7a020ae7c1163e2  ( Time -> December 7, 2023 2:16 PM)
+
+Cast to ObjectId failed for value "ObjectId {
+  path: '65717526c7a020ae7c1163e2',
+  instance: 'ObjectId',
+  validators: [],
+  getters: [],
+  setters: [],
+  _presplitPath: [ '65717526c7a020ae7c1163e2' ],
+  options: SchemaObjectIdOptions {},
+  _index: null,
+  [Symbol(mongoose#schemaType)]: true
+}" (type ObjectId) at path "_id" for model "Chat"  ( Time -> December 7, 2023 2:16 PM)
+
+/api/chat/group-chat/rename/65717526c7a020ae7c1163e2  ( Time -> December 7, 2023 2:17 PM)
+
+/api/chat/group-chat/rename/65717526c7a020ae7c1163e2  ( Time -> December 7, 2023 2:17 PM)
+
+/api/chat/group-chat/add/65717526c7a020ae7c1163e2  ( Time -> December 7, 2023 2:32 PM)
+
+/api/chat/group-chat/remove/65717526c7a020ae7c1163e2  ( Time -> December 7, 2023 2:33 PM)
+
+/api/chat/group-chat/remove/65717526c7a020ae7c1163e2  ( Time -> December 7, 2023 2:33 PM)
+
+/api/chat/group-chat/remove/65717526c7a020ae7c1163e2  ( Time -> December 7, 2023 2:33 PM)
+
+/api/chat/group-chat/add/65717526c7a020ae7c1163e2  ( Time -> December 7, 2023 2:34 PM)
+
