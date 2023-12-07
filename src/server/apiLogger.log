@@ -1,0 +1,506 @@
+/api/auth/sign-in  ( Time -> November 9, 2023 9:28 AM)
+
+/api/category/create  ( Time -> November 9, 2023 9:29 AM)
+
+Category validation failed: name: Path `name` is required.  ( Time -> November 9, 2023 9:29 AM)
+
+/api/category/create  ( Time -> November 9, 2023 9:29 AM)
+
+/api/category/create  ( Time -> November 9, 2023 9:30 AM)
+
+/api/category/create  ( Time -> November 9, 2023 9:30 AM)
+
+/api/category/all  ( Time -> November 9, 2023 9:31 AM)
+
+/api/category/create  ( Time -> November 9, 2023 9:32 AM)
+
+/api/category/create  ( Time -> November 9, 2023 9:33 AM)
+
+/api/category/create  ( Time -> November 9, 2023 9:34 AM)
+
+/api/category/create  ( Time -> November 9, 2023 9:36 AM)
+
+/api/category/create  ( Time -> November 9, 2023 9:36 AM)
+
+/api/category/all  ( Time -> November 9, 2023 9:36 AM)
+
+/api/auth/sign-in  ( Time -> November 9, 2023 11:00 AM)
+
+/api/assignment/assessment/create/6548ba54502580a8445d429e/6548bb910bf58c3fa8b2df9e/654aed3721fc62ffc9f0621e/654bbc9d302c7fb893ffee20  ( Time -> November 9, 2023 11:01 AM)
+
+/api/assignment/assessment/create/6548ba54502580a8445d429e/6548bb910bf58c3fa8b2df9e/654aed3721fc62ffc9f0621e/654bbc9d302c7fb893ffee20  ( Time -> November 9, 2023 11:01 AM)
+
+/api/assignment/submit/all/6548ba54502580a8445d429e  ( Time -> November 9, 2023 11:12 AM)
+
+/api/assignment/assessment/create/6548ba54502580a8445d429e/6548bb910bf58c3fa8b2df9e/654aed3721fc62ffc9f0621e/654bbc9d302c7fb893ffee20  ( Time -> November 9, 2023 11:18 AM)
+
+/api/assignment/assessment/create/6548ba54502580a8445d429e/6548bb910bf58c3fa8b2df9e/654aed3721fc62ffc9f0621e/654bbc9d302c7fb893ffee20  ( Time -> November 9, 2023 11:18 AM)
+
+/api/assignment/assessment/create/6548ba54502580a8445d429e/6548bb910bf58c3fa8b2df9e/654aed3721fc62ffc9f0621e/654bbc9d302c7fb893ffee20  ( Time -> November 9, 2023 11:18 AM)
+
+/api/auth/sign-up  ( Time -> November 9, 2023 11:20 AM)
+
+/api/auth/sign-in  ( Time -> November 9, 2023 11:20 AM)
+
+/api/course/all  ( Time -> November 9, 2023 11:20 AM)
+
+/api/cart/details  ( Time -> November 9, 2023 11:20 AM)
+
+/api/cart/create  ( Time -> November 9, 2023 11:21 AM)
+
+/api/subscription/create  ( Time -> November 9, 2023 11:22 AM)
+
+/api/auth/sign-in  ( Time -> November 9, 2023 11:22 AM)
+
+/api/subscription/all  ( Time -> November 9, 2023 11:22 AM)
+
+/api/subscription/accept-subscription/654c6c8057433e26a09a5e7e/6548ba54502580a8445d429e  ( Time -> November 9, 2023 11:23 AM)
+
+/api/assignment/all/course/section/6548ba54502580a8445d429e/654b06f87d8b8db4f3f3c51a  ( Time -> November 9, 2023 11:24 AM)
+
+/api/assignment/all/course/section/6548ba54502580a8445d429e/654b06f87d8b8db4f3f3c51a  ( Time -> November 9, 2023 11:25 AM)
+
+/api/assignment/all/course/section/6548ba54502580a8445d429e/6548bca1d3a1d1aed3361f84  ( Time -> November 9, 2023 11:26 AM)
+
+/api/auth/sign-in  ( Time -> November 9, 2023 11:28 AM)
+
+/api/assignment/submit/6548ba54502580a8445d429e/6548bca1d3a1d1aed3361f84/654b06f87d8b8db4f3f3c51a  ( Time -> November 9, 2023 11:29 AM)
+
+/api/auth/sign-in  ( Time -> November 9, 2023 11:29 AM)
+
+/api/assignment/submit/all/6548ba54502580a8445d429e  ( Time -> November 9, 2023 11:30 AM)
+
+/api/assignment/assessment/create/6548ba54502580a8445d429e/6548bb910bf58c3fa8b2df9e/654b06f87d8b8db4f3f3c51a/654c6e1f57433e26a09a5ea3  ( Time -> November 9, 2023 11:32 AM)
+
+/api/assignment/assessment/create/6548ba54502580a8445d429e/6548bb910bf58c3fa8b2df9e/654b06f87d8b8db4f3f3c51a/654c6e1f57433e26a09a5ea3  ( Time -> November 9, 2023 11:32 AM)
+
+/api/auth/sign-in  ( Time -> November 9, 2023 2:12 PM)
+
+/api/review-rating/create/6548ba54502580a8445d429e  ( Time -> November 9, 2023 2:13 PM)
+
+/api/review-rating/create/654ba8a5850e83d93d9a4495  ( Time -> November 9, 2023 2:13 PM)
+
+/api/review-rating/create/654ba8a5850e83d93d9a4495  ( Time -> November 9, 2023 2:27 PM)
+
+/api/review-rating/create/654ba8a5850e83d93d9a4495  ( Time -> November 9, 2023 2:48 PM)
+
+/api/review-rating/create/6548ba54502580a8445d429e  ( Time -> November 9, 2023 2:48 PM)
+
+/api/review-rating/create/6548ba54502580a8445d429e  ( Time -> November 9, 2023 2:58 PM)
+
+/api/review-rating/create/654ba8a5850e83d93d9a4495  ( Time -> November 9, 2023 3:05 PM)
+
+/api/review-rating/create/654ba8a5850e83d93d9a4495  ( Time -> November 9, 2023 3:06 PM)
+
+/api/review-rating/create/6548ba54502580a8445d429e  ( Time -> November 9, 2023 3:06 PM)
+
+/api/review-rating/update/6548ba54502580a8445d429e  ( Time -> November 9, 2023 3:27 PM)
+
+/api/review-rating/update/654ca13135f2e5a3f0992bdb  ( Time -> November 9, 2023 3:27 PM)
+
+/api/review-rating/all/6548ba54502580a8445d429e  ( Time -> November 9, 2023 3:47 PM)
+
+/api/review-rating/all/6548ba54502580a8445d429e  ( Time -> November 9, 2023 3:48 PM)
+
+/api/auth/sign-in  ( Time -> November 9, 2023 3:48 PM)
+
+/api/review-rating/create/6548ba54502580a8445d429e  ( Time -> November 9, 2023 3:49 PM)
+
+/api/review-rating/all/6548ba54502580a8445d429e  ( Time -> November 9, 2023 3:49 PM)
+
+/api/review-rating/delete/6548ba54502580a8445d429e/654ca13135f2e5a3f0992bdb  ( Time -> November 9, 2023 4:03 PM)
+
+/api/review-rating/delete/6548ba54502580a8445d429e/654ca13135f2e5a3f0992bdb  ( Time -> November 9, 2023 4:04 PM)
+
+/api/review-rating/delete/6548ba54502580a8445d429e/654ca13135f2e5a3f0992bdb  ( Time -> November 9, 2023 4:05 PM)
+
+/api/review-rating/delete/6548ba54502580a8445d429e/654cab32f103629cc28ea345  ( Time -> November 9, 2023 4:06 PM)
+
+/api/review-rating/delete/6548ba54502580a8445d429e/654cab32f103629cc28ea345  ( Time -> November 9, 2023 4:07 PM)
+
+/api/review-rating/create/6548ba54502580a8445d429e  ( Time -> November 9, 2023 4:16 PM)
+
+/api/review-rating/create/6548ba54502580a8445d429e  ( Time -> November 9, 2023 4:17 PM)
+
+/api/review-rating/create/6548ba54502580a8445d429e  ( Time -> November 9, 2023 4:17 PM)
+
+/api/review-rating/create/6548ba54502580a8445d429e  ( Time -> November 9, 2023 4:18 PM)
+
+/api/review-rating/create/6548ba54502580a8445d429e  ( Time -> November 9, 2023 4:18 PM)
+
+/api/review-rating/update/654cb1e7bc6ac5b19519ac73  ( Time -> November 9, 2023 4:18 PM)
+
+/api/review-rating/update/654cb1e7bc6ac5b19519ac73  ( Time -> November 9, 2023 4:19 PM)
+
+/api/course/all  ( Time -> November 10, 2023 8:45 AM)
+
+/api/auth/sign-in  ( Time -> November 10, 2023 8:45 AM)
+
+/api/user/update-DP  ( Time -> November 10, 2023 8:46 AM)
+
+Region is missing  ( Time -> November 10, 2023 8:46 AM)
+
+/api/user/update-DP  ( Time -> November 10, 2023 8:48 AM)
+
+Region is missing  ( Time -> November 10, 2023 8:48 AM)
+
+/api/user/update-DP  ( Time -> November 10, 2023 8:54 AM)
+
+Region is missing  ( Time -> November 10, 2023 8:54 AM)
+
+/api/user/update-DP  ( Time -> November 10, 2023 8:59 AM)
+
+/api/user/me  ( Time -> November 10, 2023 8:59 AM)
+
+/api/user/update-DP  ( Time -> November 10, 2023 9:01 AM)
+
+/api/user/me  ( Time -> November 10, 2023 9:01 AM)
+
+/api/user/me  ( Time -> November 10, 2023 9:03 AM)
+
+/api/user/update-DP  ( Time -> November 10, 2023 9:03 AM)
+
+/api/user/me  ( Time -> November 10, 2023 9:04 AM)
+
+/api/user/update-DP  ( Time -> November 10, 2023 9:05 AM)
+
+/api/user/update-DP  ( Time -> November 10, 2023 9:06 AM)
+
+/api/auth/sign-in  ( Time -> November 10, 2023 9:11 AM)
+
+/api/course/create  ( Time -> November 10, 2023 9:13 AM)
+
+/api/course/create  ( Time -> November 10, 2023 9:14 AM)
+
+/api/auth/sign-in  ( Time -> November 10, 2023 9:21 AM)
+
+/api/user/me  ( Time -> November 10, 2023 9:21 AM)
+
+/api/auth/sign-in  ( Time -> November 10, 2023 9:23 AM)
+
+/api/course/create  ( Time -> November 10, 2023 9:23 AM)
+
+/api/course/create  ( Time -> November 10, 2023 9:30 AM)
+
+/api/course/create  ( Time -> November 10, 2023 9:30 AM)
+
+/api/course/create  ( Time -> November 10, 2023 9:30 AM)
+
+/api/course/create  ( Time -> November 10, 2023 9:57 AM)
+
+/api/course-section/create/654daa0c91f52d2d74e84ca8  ( Time -> November 10, 2023 10:02 AM)
+
+/api/course-section/getSectionCourseById/654daa0c91f52d2d74e84ca8  ( Time -> November 10, 2023 10:02 AM)
+
+/api/course-content/create/654daa0c91f52d2d74e84ca8/654dab3b91f52d2d74e84cac  ( Time -> November 10, 2023 10:03 AM)
+
+/api/course/update/654daa0c91f52d2d74e84ca8  ( Time -> November 10, 2023 10:16 AM)
+
+/api/course/update/654daa0c91f52d2d74e84ca8  ( Time -> November 10, 2023 10:17 AM)
+
+/api/course/update/654daa0c91f52d2d74e84ca8  ( Time -> November 10, 2023 10:17 AM)
+
+/api/course/update/654daa0c91f52d2d74e84ca8  ( Time -> November 10, 2023 10:18 AM)
+
+/api/quiz/create  ( Time -> November 10, 2023 11:29 AM)
+
+/api/quiz/create  ( Time -> November 10, 2023 11:30 AM)
+
+/api/quiz/create  ( Time -> November 10, 2023 11:31 AM)
+
+/api/quiz/create  ( Time -> November 10, 2023 11:35 AM)
+
+Quiz validation failed: questions.0.marks: Path `marks` is required., questions.1.marks: Path `marks` is required., questions.2.marks: Path `marks` is required.  ( Time -> November 10, 2023 11:35 AM)
+
+/api/quiz/create  ( Time -> November 10, 2023 11:36 AM)
+
+/api/quiz/create  ( Time -> November 10, 2023 11:51 AM)
+
+/api/quiz/create  ( Time -> November 10, 2023 11:52 AM)
+
+/api/quiz/create  ( Time -> November 10, 2023 11:54 AM)
+
+/api/quiz/create  ( Time -> November 10, 2023 11:55 AM)
+
+/api/quiz/create  ( Time -> November 10, 2023 11:57 AM)
+
+/api/quiz/create  ( Time -> November 10, 2023 11:58 AM)
+
+/api/course-section/getSectionCourseById/654daa0c91f52d2d74e84ca8  ( Time -> November 10, 2023 11:59 AM)
+
+/api/auth/sign-in  ( Time -> November 10, 2023 1:41 PM)
+
+/api/quiz-submit/submit/654dc6815cae1ece0f676314  ( Time -> November 10, 2023 1:44 PM)
+
+/api/quiz-submit/submit/654dc6815cae1ece0f676314  ( Time -> November 10, 2023 1:46 PM)
+
+/api/quiz-submit/submit/654dc6815cae1ece0f676314  ( Time -> November 10, 2023 1:47 PM)
+
+/api/quiz-submit/submit/654dc6815cae1ece0f676314  ( Time -> November 10, 2023 1:47 PM)
+
+/api/quiz-submit/submit/654dc6815cae1ece0f676314  ( Time -> November 10, 2023 1:51 PM)
+
+/api/quiz-submit/submit/654dc6815cae1ece0f676314  ( Time -> November 10, 2023 1:59 PM)
+
+/api/quiz-submit/submit/654dc6815cae1ece0f676314  ( Time -> November 10, 2023 2:00 PM)
+
+/api/quiz-submit/submit/654dc6815cae1ece0f676314  ( Time -> November 10, 2023 2:03 PM)
+
+/api/quiz-submit/submit/654dc6815cae1ece0f676314  ( Time -> November 10, 2023 2:15 PM)
+
+QuizSubmission validation failed: courseSection: Path `courseSection` is required., userId: Path `userId` is required.  ( Time -> November 10, 2023 2:15 PM)
+
+/api/quiz-submit/submit/654dc6815cae1ece0f676314  ( Time -> November 10, 2023 2:19 PM)
+
+/api/qna/create/question  ( Time -> November 10, 2023 4:37 PM)
+
+/api/qna/create/question  ( Time -> November 10, 2023 4:57 PM)
+
+/api/auth/sign-in  ( Time -> November 10, 2023 4:58 PM)
+
+/api/qna/create/question  ( Time -> November 10, 2023 4:58 PM)
+
+/api/qna/create/question  ( Time -> November 10, 2023 4:59 PM)
+
+/api/qna/create/question  ( Time -> November 10, 2023 5:00 PM)
+
+/api/qna/create/question  ( Time -> November 10, 2023 5:02 PM)
+
+/api/qna/create/question  ( Time -> November 10, 2023 5:08 PM)
+
+/api/auth/sign-in  ( Time -> November 11, 2023 9:25 AM)
+
+/api/qna/update/question/reply/654e0ddbbff819719e61b2eb  ( Time -> November 11, 2023 9:26 AM)
+
+/api/qna/update/question/reply/654e0ddbbff819719e61b2eb  ( Time -> November 11, 2023 9:29 AM)
+
+/api/qna/update/question/reply/654e0ddbbff819719e61b2eb  ( Time -> November 11, 2023 9:30 AM)
+
+/api/qna/update/question/reply/654e0f1f60c5e5edd5b2d1f6  ( Time -> November 11, 2023 9:31 AM)
+
+/api/qna/update/question/reply/654e0f1f60c5e5edd5b2d1f6  ( Time -> November 11, 2023 9:36 AM)
+
+/api/qna/update/question/654e0ddbbff819719e61b2eb/654e0f1f60c5e5edd5b2d1f6  ( Time -> November 11, 2023 10:10 AM)
+
+/api/qna/update/question/654daa0c91f52d2d74e84ca8/654e0ddbbff819719e61b2eb  ( Time -> November 11, 2023 10:11 AM)
+
+/api/qna/create/question  ( Time -> November 11, 2023 10:11 AM)
+
+/api/qna/update/question/reply/654daa0c91f52d2d74e84ca8/654e0ddbbff819719e61b2eb/654e0ddbbff819719e61b2eb  ( Time -> November 11, 2023 10:18 AM)
+
+/api/qna/update/question/reply/654daa0c91f52d2d74e84ca8/654e0ddbbff819719e61b2eb/654e0ddbbff819719e61b2eb  ( Time -> November 11, 2023 10:26 AM)
+
+/api/qna/update/question/reply/654daa0c91f52d2d74e84ca8/654e0ddbbff819719e61b2eb/654e0ddbbff819719e61b2eb  ( Time -> November 11, 2023 10:29 AM)
+
+/api/qna/update/question/reply/654daa0c91f52d2d74e84ca8/654e0ddbbff819719e61b2eb/654ef570abcc3a606c80bf25  ( Time -> November 11, 2023 10:30 AM)
+
+/api/qna/update/question/reply/654daa0c91f52d2d74e84ca8/654e0ddbbff819719e61b2eb/654ef570abcc3a606c80bf25  ( Time -> November 11, 2023 10:34 AM)
+
+Too many positional (i.e. '$') elements found in path 'messages.$.reply.$.message'  ( Time -> November 11, 2023 10:34 AM)
+
+/api/qna/update/question/reply/654daa0c91f52d2d74e84ca8/654e0ddbbff819719e61b2eb/654ef570abcc3a606c80bf25  ( Time -> November 11, 2023 10:39 AM)
+
+/api/qna/delete/question/reply/654daa0c91f52d2d74e84ca8/654e0ddbbff819719e61b2ea/654e0f1f60c5e5edd5b2d1f6/654ef6a5abcc3a606c80bf36  ( Time -> November 11, 2023 11:05 AM)
+
+/api/qna/delete/question/reply/654daa0c91f52d2d74e84ca8/654e0ddbbff819719e61b2ea/654e0f1f60c5e5edd5b2d1f6/654ef6a5abcc3a606c80bf36  ( Time -> November 11, 2023 11:08 AM)
+
+/api/qna/delete/question/654daa0c91f52d2d74e84ca8/654e0ddbbff819719e61b2ea/654e0f1f60c5e5edd5b2d1f6  ( Time -> November 11, 2023 11:08 AM)
+
+/api/qna/update/question/reply/654eff05afe2679957e378a4  ( Time -> November 11, 2023 11:09 AM)
+
+/api/auth/sign-in  ( Time -> November 19, 2023 8:52 AM)
+
+/api/auth/sign-in  ( Time -> November 19, 2023 8:54 AM)
+
+/api/auth/sign-in  ( Time -> December 3, 2023 5:12 PM)
+
+/api/auth/sign-in  ( Time -> December 3, 2023 5:13 PM)
+
+/api/auth/sign-in  ( Time -> December 3, 2023 5:15 PM)
+
+/api/auth/sign-in  ( Time -> December 3, 2023 5:16 PM)
+
+/api/auth/sign-in  ( Time -> December 3, 2023 5:19 PM)
+
+/api/auth/sign-in  ( Time -> December 3, 2023 5:19 PM)
+
+/api/auth/sign-in  ( Time -> December 3, 2023 5:19 PM)
+
+/api/auth/sign-in  ( Time -> December 3, 2023 5:21 PM)
+
+/api/auth/sign-in  ( Time -> December 3, 2023 5:24 PM)
+
+/api/auth/sign-in  ( Time -> December 3, 2023 5:25 PM)
+
+/api/auth/sign-in  ( Time -> December 3, 2023 5:25 PM)
+
+/api/auth/sign-in  ( Time -> December 3, 2023 5:26 PM)
+
+/api/auth/sign-in  ( Time -> December 3, 2023 5:27 PM)
+
+/api/auth/sign-in  ( Time -> December 3, 2023 5:28 PM)
+
+/api/auth/sign-in  ( Time -> December 3, 2023 5:31 PM)
+
+/api/auth/sign-in  ( Time -> December 3, 2023 5:32 PM)
+
+/api/auth/sign-in  ( Time -> December 3, 2023 5:34 PM)
+
+/api/auth/sign-in  ( Time -> December 3, 2023 5:38 PM)
+
+/api/auth/sign-in  ( Time -> December 3, 2023 5:42 PM)
+
+/api/auth/sign-in  ( Time -> December 3, 2023 5:42 PM)
+
+/api/auth/sign-in  ( Time -> December 3, 2023 5:42 PM)
+
+/api/auth/sign-in  ( Time -> December 3, 2023 5:42 PM)
+
+/api/auth/sign-in  ( Time -> December 3, 2023 5:42 PM)
+
+/api/auth/sign-in  ( Time -> December 3, 2023 5:42 PM)
+
+/api/auth/sign-in  ( Time -> December 3, 2023 5:42 PM)
+
+/api/auth/sign-in  ( Time -> December 3, 2023 5:42 PM)
+
+/api/auth/sign-in  ( Time -> December 3, 2023 5:42 PM)
+
+/api/auth/sign-in  ( Time -> December 3, 2023 5:42 PM)
+
+/api/auth/sign-in  ( Time -> December 3, 2023 5:42 PM)
+
+/api/auth/sign-in  ( Time -> December 3, 2023 5:42 PM)
+
+/api/auth/sign-in  ( Time -> December 3, 2023 5:42 PM)
+
+/api/auth/sign-in  ( Time -> December 3, 2023 5:42 PM)
+
+/api/auth/sign-in  ( Time -> December 3, 2023 5:42 PM)
+
+/api/auth/sign-in  ( Time -> December 3, 2023 5:42 PM)
+
+/api/auth/sign-in  ( Time -> December 3, 2023 5:42 PM)
+
+/api/auth/sign-in  ( Time -> December 3, 2023 5:42 PM)
+
+/api/auth/sign-in  ( Time -> December 3, 2023 5:42 PM)
+
+/api/auth/sign-in  ( Time -> December 3, 2023 5:42 PM)
+
+/api/auth/sign-in  ( Time -> December 3, 2023 5:42 PM)
+
+/api/auth/sign-in  ( Time -> December 3, 2023 5:42 PM)
+
+/api/auth/sign-in  ( Time -> December 3, 2023 5:42 PM)
+
+/api/auth/sign-in  ( Time -> December 3, 2023 5:42 PM)
+
+/api/auth/sign-in  ( Time -> December 3, 2023 5:45 PM)
+
+/api/auth/sign-in  ( Time -> December 3, 2023 5:45 PM)
+
+/api/auth/sign-in  ( Time -> December 3, 2023 5:46 PM)
+
+/api/auth/sign-in  ( Time -> December 3, 2023 5:46 PM)
+
+/api/auth/sign-in  ( Time -> December 3, 2023 5:54 PM)
+
+/api/auth/sign-up  ( Time -> December 3, 2023 5:55 PM)
+
+/api/auth/sign-in  ( Time -> December 3, 2023 6:00 PM)
+
+/api/auth/sign-in  ( Time -> December 3, 2023 6:01 PM)
+
+/api/auth/sign-in  ( Time -> December 3, 2023 6:02 PM)
+
+/api/auth/sign-in  ( Time -> December 3, 2023 6:04 PM)
+
+/api/auth/sign-in  ( Time -> December 3, 2023 6:11 PM)
+
+/api/auth/sign-in  ( Time -> December 3, 2023 6:13 PM)
+
+/api/auth/sign-in  ( Time -> December 3, 2023 6:14 PM)
+
+/api/auth/sign-in  ( Time -> December 3, 2023 6:15 PM)
+
+/api/auth/sign-in  ( Time -> December 3, 2023 6:17 PM)
+
+/api/auth/sign-in  ( Time -> December 3, 2023 6:21 PM)
+
+/api/auth/sign-in  ( Time -> December 3, 2023 6:27 PM)
+
+/api/auth/sign-in  ( Time -> December 3, 2023 6:27 PM)
+
+/api/auth/sign-in  ( Time -> December 3, 2023 6:28 PM)
+
+/api/auth/sign-in  ( Time -> December 3, 2023 6:29 PM)
+
+/api/auth/sign-in  ( Time -> December 3, 2023 6:29 PM)
+
+/api/auth/sign-in  ( Time -> December 3, 2023 6:29 PM)
+
+/api/auth/sign-in  ( Time -> December 3, 2023 6:29 PM)
+
+/api/auth/sign-in  ( Time -> December 3, 2023 6:31 PM)
+
+/api/auth/sign-in  ( Time -> December 3, 2023 6:31 PM)
+
+/api/auth/sign-in  ( Time -> December 3, 2023 6:31 PM)
+
+/api/auth/sign-in  ( Time -> December 3, 2023 7:33 PM)
+
+/api/auth/sign-in  ( Time -> December 3, 2023 7:34 PM)
+
+/api/auth/sign-in  ( Time -> December 3, 2023 7:37 PM)
+
+/api/auth/sign-in  ( Time -> December 3, 2023 7:42 PM)
+
+/api/auth/sign-in  ( Time -> December 3, 2023 7:46 PM)
+
+/api/auth/sign-in  ( Time -> December 3, 2023 7:46 PM)
+
+/api/auth/sign-in  ( Time -> December 3, 2023 7:47 PM)
+
+/api/auth/sign-in  ( Time -> December 3, 2023 7:48 PM)
+
+/api/auth/sign-in  ( Time -> December 3, 2023 7:49 PM)
+
+/api/auth/sign-in  ( Time -> December 3, 2023 7:49 PM)
+
+/api/auth/sign-in  ( Time -> December 3, 2023 7:49 PM)
+
+/api/auth/sign-in  ( Time -> December 3, 2023 7:54 PM)
+
+/api/auth/sign-in  ( Time -> December 3, 2023 7:56 PM)
+
+/api/auth/sign-up  ( Time -> December 3, 2023 7:59 PM)
+
+ENOENT: no such file or directory, open '/Users/pallab99/Documents/personal projects/chat-app/chat-app-server/src/views/verify-account.ejs'  ( Time -> December 3, 2023 7:59 PM)
+
+/api/auth/sign-up  ( Time -> December 3, 2023 8:01 PM)
+
+/api/auth/sign-up  ( Time -> December 3, 2023 8:02 PM)
+
+/api/auth/sign-up  ( Time -> December 3, 2023 8:03 PM)
+
+/api/auth/sign-up  ( Time -> December 3, 2023 8:06 PM)
+
+/api/auth/sign-up  ( Time -> December 3, 2023 8:07 PM)
+
+/api/auth/sign-up  ( Time -> December 3, 2023 8:09 PM)
+
+/api/auth/sign-up  ( Time -> December 3, 2023 8:09 PM)
+
+/api/auth/sign-up  ( Time -> December 3, 2023 8:11 PM)
+
+/api/auth/sign-up  ( Time -> December 3, 2023 8:15 PM)
+
+/api/auth/sign-in  ( Time -> December 3, 2023 8:15 PM)
+
+/api/auth/sign-in  ( Time -> December 3, 2023 8:16 PM)
+
+/api/auth/sign-in  ( Time -> December 3, 2023 8:18 PM)
+
+/api/auth/sign-in  ( Time -> December 3, 2023 8:18 PM)
+
