@@ -11,7 +11,7 @@ import { validator } from "../../middlewares/validator";
 const router = express.Router();
 
 router
-  .get("/all", [tokenAuthorization, isAdmin], UserController.getAllUser)
+  .get("/all", [tokenAuthorization], UserController.getAllUser)
   .get("/me", [tokenAuthorization], UserController.getUserProfile)
   .delete(
     "/delete/:userId",

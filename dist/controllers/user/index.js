@@ -32,11 +32,13 @@ class UserControllerClass {
         return __awaiter(this, void 0, void 0, function* () {
             try {
                 (0, dbLogger_1.databaseLogger)(req.originalUrl);
-                const result = yield user_1.default.getAllUser();
+                const { email } = req.user;
+                const loggedInUser = yield user_1.default.findByEmail(email);
+                const { search } = req.query;
+                const result = yield user_1.default.getAllUser(search, loggedInUser === null || loggedInUser === void 0 ? void 0 : loggedInUser._id);
                 if (result.length <= 0) {
                     return (0, response_1.sendResponse)(res, statusCode_1.HTTP_STATUS.OK, responseMessage_1.RESPONSE_MESSAGE.NO_DATA, []);
                 }
-                // const userData = await UserService.getDpOfAllUser(result);
                 if (!result.length) {
                     return (0, response_1.sendResponse)(res, statusCode_1.HTTP_STATUS.BAD_REQUEST, responseMessage_1.RESPONSE_MESSAGE.SOMETHING_WENT_WRONG, []);
                 }

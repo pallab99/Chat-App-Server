@@ -11,6 +11,10 @@ const chatSchema = new mongoose_1.Schema({
         ref: "Message",
     },
     groupAdmin: { type: mongoose_1.Schema.Types.ObjectId, ref: "User" },
+    dp: {
+        type: String,
+        required: false,
+    },
 }, { timestamps: true });
 const ChatModel = (0, mongoose_1.model)("Chat", chatSchema);
 exports.ChatModel = ChatModel;

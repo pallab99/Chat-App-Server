@@ -27,9 +27,16 @@ class USerServiceClass {
             return yield user_1.default.createUser(name, email);
         });
     }
-    getAllUser() {
+    getAllUser(search, loggedInUser) {
         return __awaiter(this, void 0, void 0, function* () {
-            return yield user_1.default.getAllUser();
+            const query = {};
+            if (search) {
+                query.$or = [
+                    { name: { $regex: search, $options: "i" } },
+                    { email: { $regex: search, $options: "i" } },
+                ];
+            }
+            return yield user_1.default.getAllUser(query, loggedInUser);
         });
     }
     updateProfilePicture(entity) {
@@ -53,18 +60,6 @@ class USerServiceClass {
                 return { success: true, data: result };
             }
             return { success: false, data: null };
-        });
-    }
-    getAllStudents() {
-        return __awaiter(this, void 0, void 0, function* () {
-            const result = yield user_1.default.getAllUser();
-            if (result.length <= 0) {
-                return { success: false, data: null };
-            }
-            const students = result.filter((ele) => {
-                return ele.rank === 3;
-            });
-            return { success: true, data: students };
         });
     }
     addToMyLearning(courseId, userId) {

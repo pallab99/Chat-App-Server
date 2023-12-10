@@ -21,13 +21,17 @@ class UserControllerClass {
   async getAllUser(req: Request, res: Response) {
     try {
       databaseLogger(req.originalUrl);
+      const { email } = req.user;
+      const loggedInUser = await UserService.findByEmail(email);
+      const { search } = req.query;
 
-      const result = await UserService.getAllUser();
+      const result = await UserService.getAllUser(
+        search as string,
+        loggedInUser?._id
+      );
       if (result.length <= 0) {
         return sendResponse(res, HTTP_STATUS.OK, RESPONSE_MESSAGE.NO_DATA, []);
       }
-
-      // const userData = await UserService.getDpOfAllUser(result);
 
       if (!result.length) {
         return sendResponse(
@@ -200,8 +204,6 @@ class UserControllerClass {
     }
   }
 
- 
-
   async updateUser(req: Request, res: Response) {
     try {
       databaseLogger(req.originalUrl);
@@ -236,10 +238,6 @@ class UserControllerClass {
       );
     }
   }
-
-  
-
- 
 }
 
 export const UserController = new UserControllerClass();

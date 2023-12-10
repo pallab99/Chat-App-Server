@@ -28,9 +28,9 @@ class UserRepositoryClass {
             });
         });
     }
-    getAllUser() {
+    getAllUser(query, loggedInUser) {
         return __awaiter(this, void 0, void 0, function* () {
-            return yield user_1.UserModel.find({});
+            return yield user_1.UserModel.find(Object.assign(Object.assign({}, query), { _id: { $ne: new mongoose_1.default.Types.ObjectId(loggedInUser) } })).exec();
         });
     }
     save(entity) {

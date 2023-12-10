@@ -12,8 +12,16 @@ class USerServiceClass {
     return await UserRepository.createUser(name, email);
   }
 
-  async getAllUser() {
-    return await UserRepository.getAllUser();
+  async getAllUser(search: string, loggedInUser: string) {
+    const query: any = {};
+
+    if (search) {
+      query.$or = [
+        { name: { $regex: search, $options: "i" } },
+        { email: { $regex: search, $options: "i" } },
+      ];
+    }
+    return await UserRepository.getAllUser(query, loggedInUser);
   }
 
   async updateProfilePicture(entity: any) {
@@ -33,18 +41,6 @@ class USerServiceClass {
       return { success: true, data: result };
     }
     return { success: false, data: null };
-  }
-
-  async getAllStudents() {
-    const result = await UserRepository.getAllUser();
-    if (result.length <= 0) {
-      return { success: false, data: null };
-    }
-    const students = result.filter((ele: any) => {
-      return ele.rank === 3;
-    });
-
-    return { success: true, data: students };
   }
 
   async addToMyLearning(courseId: string, userId: string) {

@@ -6,20 +6,18 @@ class UserRepositoryClass {
     return await UserModel.findOne({ email });
   }
 
-  async createUser(
-    name: string,
-    email: string,
-
-  ) {
+  async createUser(name: string, email: string) {
     return await UserModel.create({
       name,
       email,
-
     });
   }
 
-  async getAllUser() {
-    return await UserModel.find({});
+  async getAllUser(query: any, loggedInUser: string) {
+    return await UserModel.find({
+      ...query,
+      _id: { $ne: new mongoose.Types.ObjectId(loggedInUser) },
+    }).exec();
   }
 
   async save(entity: any) {
