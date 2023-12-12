@@ -31,7 +31,10 @@ class ChatClassController {
                 }
                 const isChatAvailable = yield chat_1.default.isChatAvailable(loggedInUser._id, userId);
                 if (isChatAvailable.success) {
-                    return (0, response_1.sendResponse)(res, statusCode_1.HTTP_STATUS.CONFLICT, responseMessage_1.RESPONSE_MESSAGE.CHAT_AVAILABLE);
+                    const getAvailableChat = yield chat_1.default.getAvailableChat(loggedInUser._id, userId);
+                    if (getAvailableChat.success) {
+                        return (0, response_1.sendResponse)(res, statusCode_1.HTTP_STATUS.OK, responseMessage_1.RESPONSE_MESSAGE.CHAT_AVAILABLE, getAvailableChat.data);
+                    }
                 }
                 const newChat = yield chat_1.default.newSingleChat([
                     loggedInUser._id,
@@ -85,7 +88,7 @@ class ChatClassController {
                 if (!newGroupChat.success) {
                     return (0, response_1.sendResponse)(res, statusCode_1.HTTP_STATUS.BAD_REQUEST, responseMessage_1.RESPONSE_MESSAGE.CHAT_CREATE_FAILED);
                 }
-                return (0, response_1.sendResponse)(res, statusCode_1.HTTP_STATUS.BAD_REQUEST, responseMessage_1.RESPONSE_MESSAGE.CHAT_CREATE_SUCCESS);
+                return (0, response_1.sendResponse)(res, statusCode_1.HTTP_STATUS.OK, responseMessage_1.RESPONSE_MESSAGE.CHAT_CREATE_SUCCESS);
             }
             catch (error) {
                 console.log(error);

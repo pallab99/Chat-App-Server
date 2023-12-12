@@ -63,6 +63,13 @@ class ChatRepositoryClass {
       }
     );
   }
+
+  async getAvailableChat(loggedInUser: string, user: string) {
+    return await ChatModel.findOne({
+      users: { $all: [loggedInUser, user] },
+      isGroupChat: { $ne: true },
+    });
+  }
 }
 
 const ChatRepository = new ChatRepositoryClass();

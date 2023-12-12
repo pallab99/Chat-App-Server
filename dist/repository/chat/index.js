@@ -66,6 +66,14 @@ class ChatRepositoryClass {
             });
         });
     }
+    getAvailableChat(loggedInUser, user) {
+        return __awaiter(this, void 0, void 0, function* () {
+            return yield chat_1.ChatModel.findOne({
+                users: { $all: [loggedInUser, user] },
+                isGroupChat: { $ne: true },
+            });
+        });
+    }
 }
 const ChatRepository = new ChatRepositoryClass();
 exports.default = ChatRepository;

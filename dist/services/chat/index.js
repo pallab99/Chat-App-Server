@@ -81,6 +81,15 @@ class CharServiceClass {
             return { success: false, data: null };
         });
     }
+    getAvailableChat(loggedInUser, user) {
+        return __awaiter(this, void 0, void 0, function* () {
+            const result = yield chat_1.default.getAvailableChat(loggedInUser, user);
+            if (result) {
+                return { success: true, data: result };
+            }
+            return { success: false, data: null };
+        });
+    }
 }
 const ChatService = new CharServiceClass();
 exports.default = ChatService;

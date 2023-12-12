@@ -26,11 +26,19 @@ class ChatClassController {
       );
 
       if (isChatAvailable.success) {
-        return sendResponse(
-          res,
-          HTTP_STATUS.CONFLICT,
-          RESPONSE_MESSAGE.CHAT_AVAILABLE
+        const getAvailableChat = await ChatService.getAvailableChat(
+          loggedInUser._id,
+          userId
         );
+
+        if (getAvailableChat.success) {
+          return sendResponse(
+            res,
+            HTTP_STATUS.OK,
+            RESPONSE_MESSAGE.CHAT_AVAILABLE,
+            getAvailableChat.data
+          );
+        }
       }
 
       const newChat = await ChatService.newSingleChat([
@@ -128,7 +136,7 @@ class ChatClassController {
       }
       return sendResponse(
         res,
-        HTTP_STATUS.BAD_REQUEST,
+        HTTP_STATUS.OK,
         RESPONSE_MESSAGE.CHAT_CREATE_SUCCESS
       );
     } catch (error: any) {

@@ -74,6 +74,14 @@ class CharServiceClass {
     }
     return { success: false, data: null };
   }
+
+  async getAvailableChat(loggedInUser: string, user: string) {
+    const result = await ChatRepository.getAvailableChat(loggedInUser, user);
+    if (result) {
+      return { success: true, data: result };
+    }
+    return { success: false, data: null };
+  }
 }
 
 const ChatService = new CharServiceClass();
