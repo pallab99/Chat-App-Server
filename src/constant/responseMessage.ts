@@ -108,4 +108,6 @@ export const RESPONSE_MESSAGE = {
   ADD_USER_SUCCESS: "Successfully added new user",
   REMOVE_USER_FAILED: "Failed to remove  user",
   REMOVE_USER_SUCCESS: "Successfully removed user",
+  SEND_MESSAGE_FAILED: "Failed to send message",
+  SEND_MESSAGE_SUCCESS: "Successfully send the message",
 };
