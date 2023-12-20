@@ -43,7 +43,7 @@ class ChatClassController {
                 if (!newChat.success) {
                     return (0, response_1.sendResponse)(res, statusCode_1.HTTP_STATUS.BAD_REQUEST, responseMessage_1.RESPONSE_MESSAGE.CHAT_CREATE_FAILED);
                 }
-                return (0, response_1.sendResponse)(res, statusCode_1.HTTP_STATUS.BAD_REQUEST, responseMessage_1.RESPONSE_MESSAGE.CHAT_CREATE_SUCCESS);
+                return (0, response_1.sendResponse)(res, statusCode_1.HTTP_STATUS.OK, responseMessage_1.RESPONSE_MESSAGE.CHAT_CREATE_SUCCESS, newChat.data);
             }
             catch (error) {
                 console.log(error);

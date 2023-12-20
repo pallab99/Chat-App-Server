@@ -55,8 +55,9 @@ class ChatClassController {
       }
       return sendResponse(
         res,
-        HTTP_STATUS.BAD_REQUEST,
-        RESPONSE_MESSAGE.CHAT_CREATE_SUCCESS
+        HTTP_STATUS.OK,
+        RESPONSE_MESSAGE.CHAT_CREATE_SUCCESS,
+        newChat.data
       );
     } catch (error: any) {
       console.log(error);
