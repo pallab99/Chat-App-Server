@@ -10,8 +10,11 @@ import { sendResponse } from "./utils/response";
 const cors = require("cors");
 const bodyParser = require("body-parser");
 const cookieParser = require("cookie-parser");
+import { createServer } from "http";
 dotEnv.config();
 const app: Application = express();
+const httpServer = createServer(app);
+const { Server } = require("socket.io");
 
 app.use(cors({ origin: true, credentials: true }));
 app.use(express.json());
@@ -45,7 +48,38 @@ app.use((req: Request, res: Response, next: NextFunction) => {
 });
 
 connectDB(() => {
-  app.listen(port, () => {
+  httpServer.listen(port, () => {
     console.log(`⚡️[server]: Server is running at http://localhost:${port}`);
+  });
+});
+
+const io = new Server(httpServer, {
+  cors: {
+    origin: true,
+  },
+});
+
+io.on("connection", (socket: any) => {
+  console.log("New connection");
+
+  socket.on("setup", (userData: any) => {
+    socket.join(userData.email);
+    socket.emit("connected");
+  });
+
+  socket.on("join chat", (room: any) => {
+    socket.join(room);
+    console.log("User Joined Room: ", room);
+  });
+
+  socket.on("new message", (newMessageReceived: any) => {
+    let chat = newMessageReceived.chat;
+
+    if (!chat.users) return console.log("chat.users not defined");
+
+    chat.users.forEach((user: any) => {
+      if (user.email == newMessageReceived.sender.email) return;
+      socket.in(user.email).emit("message received", newMessageReceived);
+    });
   });
 });

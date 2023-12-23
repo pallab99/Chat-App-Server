@@ -14,8 +14,11 @@ const response_1 = require("./utils/response");
 const cors = require("cors");
 const bodyParser = require("body-parser");
 const cookieParser = require("cookie-parser");
+const http_1 = require("http");
 dotenv_1.default.config();
 const app = (0, express_1.default)();
+const httpServer = (0, http_1.createServer)(app);
+const { Server } = require("socket.io");
 app.use(cors({ origin: true, credentials: true }));
 app.use(express_1.default.json());
 app.use(bodyParser.urlencoded({ extended: true }));
@@ -37,7 +40,33 @@ app.use((req, res, next) => {
     return (0, response_1.sendResponse)(res, statusCode_1.HTTP_STATUS.BAD_GATEWAY, responseMessage_1.RESPONSE_MESSAGE.NOT_FOUND);
 });
 (0, databaseConnection_1.connectDB)(() => {
-    app.listen(port, () => {
+    httpServer.listen(port, () => {
         console.log(`⚡️[server]: Server is running at http://localhost:${port}`);
+    });
+});
+const io = new Server(httpServer, {
+    cors: {
+        origin: true,
+    },
+});
+io.on("connection", (socket) => {
+    console.log("New connection");
+    socket.on("setup", (userData) => {
+        socket.join(userData.email);
+        socket.emit("connected");
+    });
+    socket.on("join chat", (room) => {
+        socket.join(room);
+        console.log("User Joined Room: ", room);
+    });
+    socket.on("new message", (newMessageReceived) => {
+        let chat = newMessageReceived.chat;
+        if (!chat.users)
+            return console.log("chat.users not defined");
+        chat.users.forEach((user) => {
+            if (user.email == newMessageReceived.sender.email)
+                return;
+            socket.in(user.email).emit("message received", newMessageReceived);
+        });
     });
 });

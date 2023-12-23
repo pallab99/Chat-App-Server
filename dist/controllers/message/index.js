@@ -20,6 +20,7 @@ const user_1 = __importDefault(require("../../services/user"));
 const message_1 = __importDefault(require("../../services/message"));
 class MessageControllerClass {
     sendMessage(req, res) {
+        var _a, _b;
         return __awaiter(this, void 0, void 0, function* () {
             try {
                 (0, dbLogger_1.databaseLogger)(req.originalUrl);
@@ -38,7 +39,8 @@ class MessageControllerClass {
                 if (!newMessage.success) {
                     return (0, response_1.sendResponse)(res, statusCode_1.HTTP_STATUS.BAD_REQUEST, responseMessage_1.RESPONSE_MESSAGE.SEND_MESSAGE_FAILED);
                 }
-                return (0, response_1.sendResponse)(res, statusCode_1.HTTP_STATUS.OK, responseMessage_1.RESPONSE_MESSAGE.SEND_MESSAGE_SUCCESS);
+                const result = yield message_1.default.allMessageByChatId(chatId);
+                return (0, response_1.sendResponse)(res, statusCode_1.HTTP_STATUS.OK, responseMessage_1.RESPONSE_MESSAGE.SEND_MESSAGE_SUCCESS, (_a = result === null || result === void 0 ? void 0 : result.data) === null || _a === void 0 ? void 0 : _a[((_b = result === null || result === void 0 ? void 0 : result.data) === null || _b === void 0 ? void 0 : _b.length) - 1]);
             }
             catch (error) {
                 console.log(error);

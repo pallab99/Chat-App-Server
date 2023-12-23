@@ -36,10 +36,12 @@ class MessageControllerClass {
           RESPONSE_MESSAGE.SEND_MESSAGE_FAILED
         );
       }
+      const result = await MessageService.allMessageByChatId(chatId);
       return sendResponse(
         res,
         HTTP_STATUS.OK,
-        RESPONSE_MESSAGE.SEND_MESSAGE_SUCCESS
+        RESPONSE_MESSAGE.SEND_MESSAGE_SUCCESS,
+        result?.data?.[result?.data?.length - 1]
       );
     } catch (error: any) {
       console.log(error);
